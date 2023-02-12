@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="index.js"></script>
     <title>Fetch and Graph CSV</title>
 </head>
 <body>
-    
+    <h1>Taylor Swift Songs' Dancability*</h1>
+    <h2>Data extracted from Spotify WebAPI on November 6, 2021</h2>
+    <p>
+        * Danceability = How suitable a track is for dancing based on a combination
+        of musical elements including tempo, rhythm stability, beat
+    </p>
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+      
+    <div class="row">
+        <h1>And The Top 3 Are</h1>
+        <div class="column">
+            <h2 id="top1"></h2>
+            <h2 id="top2"></h2>
+            <h2 id="top3"></h2>
+        </div>
+        
+        <div class="column">
+            <img src="dancingTay.gif">
+        </div>
+    </div>
 </body>
 </html>
