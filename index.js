@@ -7,7 +7,7 @@ async function getData(){
     top1Song = top2Song = top3Song = "";
     top1D = top2D = top3D = 0;
 
-    const response = await fetch('spotify_taylorswift.csv');
+    const response = await fetch('dataSets/0_spotify_taylorswift.csv');
     const data = await response.text();
     console.log(data);
     const table = data.trim().split('\n').slice(1);
