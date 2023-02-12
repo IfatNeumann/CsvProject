@@ -10,3 +10,5 @@ Then, I listed the top 3 most danceable* songs.
 In this repository there is a directory called `dataSets`, containing other options
 to work with (for those of us who are not Taylor Swift fans ;) ).  
 With each data set there are planty of graphing options!
+
+Required extention: [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
